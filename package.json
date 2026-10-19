@@ -1,0 +1,24 @@
+{
+  "name": "mtg-results-fetcher",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node node_modules/vite/bin/vite.js",
+    "build": "node node_modules/typescript/bin/tsc --noEmit -p tsconfig.json && node node_modules/vite/bin/vite.js build",
+    "preview": "node node_modules/vite/bin/vite.js preview",
+    "test": "node --import ./node_modules/tsx/dist/loader.mjs --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "node-html-parser": "^9.0.5",
+    "preact": "^11.0.1"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.0.2",
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^5.4.21"
+  }
+}
