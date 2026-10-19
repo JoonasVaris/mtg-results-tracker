@@ -4,4 +4,4 @@ Simple web app that fetches tournament results for formats you follow into a sim
 
 Currently only supports mtgtop8.com.
 
-Deploys to <NETLIFY_URL>
+Deploys to https://mtg-tournament-results.netlify.app/
