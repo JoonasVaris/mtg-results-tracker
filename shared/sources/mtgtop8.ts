@@ -147,7 +147,7 @@ export function parseEventPage(html: string, formatId: string, eventId: string):
 async function fetchPage(path: string): Promise<string> {
   const res = await fetch(`${BASE}/${path}`, {
     headers: {
-      'user-agent': 'mtg-results-fetcher/0.1 (personal decklist reader)',
+      'user-agent': 'mtg-results-fetcher/0.1 (+https://mtg-tournament-results.netlify.app/)',
       accept: 'text/html',
     },
   });
